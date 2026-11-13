@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lonca — Birlikte Çalış, Birlikte Yüksel</title>
+  <meta name="description" content="Lonca: Siyah ve altın temalı, çalışma oturumlarıyla seviye atlayan Android grup yönetimi ve odaklanma uygulaması." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="orbit-bg" aria-hidden="true">
+    <svg viewBox="0 0 800 800" fill="none">
+      <circle cx="400" cy="400" r="160" stroke="#D6B06C" stroke-opacity="0.10" />
+      <circle cx="400" cy="400" r="240" stroke="#D6B06C" stroke-opacity="0.08" />
+      <circle cx="400" cy="400" r="320" stroke="#D6B06C" stroke-opacity="0.06" />
+      <circle cx="400" cy="400" r="390" stroke="#D6B06C" stroke-opacity="0.04" />
+      <circle cx="523" cy="503" r="3" fill="#D6B06C" fill-opacity="0.55" />
+      <circle cx="223" cy="562" r="2.5" fill="#D6B06C" fill-opacity="0.45" />
+      <circle cx="243" cy="121" r="2.5" fill="#D6B06C" fill-opacity="0.45" />
+    </svg>
+  </div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="#" class="brand">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name">Lonca</span>
+      </a>
+      <nav class="nav">
+        <a href="#ozellikler">Özellikler</a>
+        <a href="#sistem">Seviye &amp; Yönetim</a>
+        <a href="#indir" class="nav-cta">APK İndir</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">ANDROID · GRUP ÇALIŞMA &amp; YÖNETİM</p>
+          <h1>Birlikte çalış,<br /><em>birlikte yüksel.</em></h1>
+          <p class="lead">
+            Lonca, çalışma oturumlarını topluluk ruhuyla birleştirir. Bir loncaya katıl,
+            oturumunu başlat, ekibinle aynı anda çalışırken hem kendi seviyeni hem loncanın
+            seviyesini yükselt.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              id="drive-download-btn"
+              href="https://drive.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-gold"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              <span>Android APK İndir</span>
+            </a>
+            <a href="#ozellikler" class="btn-ghost">Özellikleri keşfet</a>
+          </div>
+
+          <div class="live-strip">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <div class="live-strip-text">
+              <span class="live-task">Flutter öğrenme · Örnek Oturum</span>
+              <span class="live-sub">Aktif oturumlar grup seviyesini canlı artırır</span>
+            </div>
+            <span class="live-clock" id="hero-clock">01:42:18</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-frame">
+            <img src="assets/hero-app.jpg" alt="Lonca Android uygulaması siyah ve altın arayüz önizlemesi" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ozellikler" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">MİMARİ &amp; DENEYİM</span>
+          <h2>Sade, akıcı ve odak odaklı.</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="soft-card">
+            <div class="card-badge">◆ LV 01</div>
+            <h3>Canlı Çalışma Oturumları</h3>
+            <p>
+              Loncaya girdiğinde ne üzerinde çalışacağını yaz ve sayacı başlat. Grup ekranındaki
+              kare üye kartlarında kimin aktif olduğu, ne yaptığı ve çalışma süresi canlı görünür.
+            </p>
+          </article>
+
+          <article class="soft-card">
+            <div class="card-badge">◆ SOFİSTİKE</div>
+            <h3>İçe Girip Çıkabilen Sohbet</h3>
+            <p>
+              Ana çalışma alanını boğmayan, sağdan kayarak açılan yan sohbet paneliyle ekibinle
+              anlık iletişim kur; susturulan üyeler mesaj gönderemez.
+            </p>
+          </article>
+
+          <article class="soft-card">
+            <div class="card-badge">◆ HİYERARŞİ</div>
+            <h3>Lider &amp; Yardımcı Yönetimi</h3>
+            <p>
+              Katılma isteklerini onayla veya reddet, üyeleri sustur ya da çıkar. Liderler ayrıca
+              yardımcı atayabilir ve liderliği devredebilir.
+            </p>
+          </article>
+
+          <article class="soft-card">
+            <div class="card-badge">◆ GİZLİLİK</div>
+            <h3>Seviye &amp; Özel Profil</h3>
+            <p>
+              Gruplarda geçirdiğin süre arttıkça kullanıcı seviyen yükselir. Profilinde üye olduğun
+              loncaları sergileyebilir veya tek dokunuşla gizleyebilirsin.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sistem" class="section">
+      <div class="container split-grid">
+        <div class="split-visual">
+          <div class="visual-frame">
+            <img src="assets/feature-orbit.jpg" alt="Altın yörünge halkaları ve seviye ilerlemesi illüstrasyonu" />
+          </div>
+        </div>
+
+        <div class="split-copy">
+          <span class="eyebrow">SEVİYE SİSTEMİ</span>
+          <h2>Her dakika loncanı sıralamada yukarı taşır.</h2>
+          <p class="lead">
+            Keşfet ekranında tüm loncalar toplam çalışma saatine ve seviyesine göre sıralanır.
+            Üyeler aktif oturum açtıkça grubun seviye halkası altınla dolar.
+          </p>
+
+          <ul class="detail-list">
+            <li>
+              <span class="dot"></span>
+              <div>
+                <strong>Onaylı Giriş Sistemi</strong>
+                <p>Her isteyen doğrudan giremez; katılma isteği lider veya yardımcı onayıyla kabul edilir.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dot"></span>
+              <div>
+                <strong>Benzersiz Kullanıcı ID</strong>
+                <p>E-posta, isim, şifre ve sana özel <code>@id</code> ile hesabını saniyeler içinde oluştur.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dot"></span>
+              <div>
+                <strong>Siyah &amp; Altın Tasarım</strong>
+                <p>Göz yormayan sıcak obsidyen zeminler, ince çizgiler ve akıcı geçişlerle uzun oturumlara uygun.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="indir" class="section download-section">
+      <div class="container">
+        <div class="download-box">
+          <span class="eyebrow">ANDROID İÇİN HAZIR</span>
+          <h2>Loncana şimdi katıl.</h2>
+          <p>
+            Aşağıdaki butondan Android kurulum dosyasını (APK) Google Drive üzerinden indirebilirsin.
+          </p>
+          <a
+            id="drive-download-btn-bottom"
+            href="https://drive.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-gold"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            <span>Google Drive'dan İndir (APK)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="brand-name">Lonca</span>
+      <span class="footer-note">Siyah &amp; Altın Grup Yönetim Uygulaması</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

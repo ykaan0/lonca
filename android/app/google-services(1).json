@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "740836414182",
+    "firebase_url": "https://grupprojesi-d8c8d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "grupprojesi-d8c8d",
+    "storage_bucket": "grupprojesi-d8c8d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740836414182:android:55b94c6faedbceadfce127",
+        "android_client_info": {
+          "package_name": "com.example.lonca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqbZghW0T6O7ulu5YZK8mOuL3QcJ1IbYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
