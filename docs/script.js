@@ -1,5 +1,5 @@
 // Google Drive APK indirme bağlantısını buraya yapıştırın:
-const DRIVE_DOWNLOAD_URL = 'https://drive.google.com/';
+const DRIVE_DOWNLOAD_URL = 'https://drive.google.com/drive/folders/1p6Bit4Gzi1WCAHVhuxZX_8epwRBz1jCQ?usp=sharing';
 
 document.querySelectorAll('#drive-download-btn, #drive-download-btn-bottom').forEach((el) => {
   el.setAttribute('href', DRIVE_DOWNLOAD_URL);
@@ -18,3 +18,4 @@ if (clockEl) {
     clockEl.textContent = `${pad(h)}:${pad(m)}:${pad(s)}`;
   }, 1000);
 }
+
